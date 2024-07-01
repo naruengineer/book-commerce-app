@@ -13,6 +13,8 @@ const nextConfig = {
     ],
   },
 
+  secret: process.env.NEXTAUTH_SECRET,
+
   reactStrictMode: false,
 };
 
